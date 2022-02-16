@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello"
+      ],
+      "responses": [
+        "Hi user"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "Hi bot, after a long time"
+      ],
+      "responses": [
+        "Yeah dude, where do you live now?"
+      ]
+    },
+
+
+    {
+      "tag": "abc",
+      "patterns": [
+        "With my parents"
+      ],
+      "responses": [
+        "Where do your parents live ?"
+      ]
+    },
+
+    {
+      "tag": "efg",
+      "patterns": [
+        "With me"
+      ],
+      "responses": [
+        "Where do you all live?"
+      ]
+    },
+
+
+    {
+      "tag": "hij",
+      "patterns": [
+        "Together"
+      ],
+      "responses": [
+        "Dude don’t joke"
+      ]
+    },
+
+    {
+      "tag": "klm",
+      "patterns": ["I’m not joking dude"],
+      "responses": ["Ok, now tell me, where is your house ?"]
+    },
+
+    {
+      "tag": "nop",
+      "patterns": ["Next to my neighbor’s house"],
+      "responses": ["Where is your neighbor’s house ?"]
+    },
+
+    {
+      "tag": "qrs",
+      "patterns": ["Next to my house "],
+      "responses": ["Grrrrrrr"]
+    },
+
+    
+    {
+      "tag": "bye",
+      "patterns": [
+          "Bye", "See you later", "Goodbye"
+      ],
+      "responses": [
+          "bye Dude"
+      ]
+    }
+  ]
+}
+
